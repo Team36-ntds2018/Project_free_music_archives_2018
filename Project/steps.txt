@@ -1,0 +1,15 @@
+NTDS:
+
+Steps:
+	-choose features/genres and create adjacency
+	-get graph from adjacency
+	-ask user for two different nodes
+	-compute all the paths between the two nodes
+	-compute the signal over each path
+	-compute the smoothness over each path
+	-choose the path with the lowest smoothness
+	-get the corresponding nodes in order
+
+Choices:
+	- what features/genres do we choose ?
+	- what signal do we compute ? (the same features, a different one,  echonest...)
